@@ -944,7 +944,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -606.6}
-  m_SizeDelta: {x: 400, y: 100}
+  m_SizeDelta: {x: 400, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &222000011179475138
 CanvasRenderer:
@@ -1117,7 +1117,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: VISIT TUTORIAL
+  m_Text: "\u53D1\u5E03\u7248\u672C\uFF1A1.0.0\n\u9648\u76CA\u6B23 \u674E\u58A8\u6C60
+    \u80E1\u4E50\u5929\n\u9648\u51EF \u8096\u51CC"
 --- !u!1 &1000014126667810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,7 +1154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -745}
+  m_AnchoredPosition: {x: 0, y: -785}
   m_SizeDelta: {x: 341, y: 107}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &114000013473053928

@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3078fe4880854b6b8337b2b7a6d0106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Offset: {x: 7.5, y: 3.5, z: -10}
+  Offset: {x: 5.5, y: 3.5, z: -10}
 --- !u!114 &1089777632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,12 +832,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: "\u524D\u8FDB\uFF01\u65BD\u5DE5\u961F"
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012672829824, guid: c74f553b118f94bfcbe70a5cdcc48114,
-        type: 3}
-      propertyPath: m_Text
-      value: "\u6D4B\u8BD5\u7248\u672C\uFF1A0.0.1\n\u9648\u76CA\u6B23 \u674E\u58A8\u6C60
-        \u80E1\u4E50\u5929"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c74f553b118f94bfcbe70a5cdcc48114, type: 3}

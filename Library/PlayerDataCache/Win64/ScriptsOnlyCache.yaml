@@ -10,6 +10,8 @@ ScriptsOnlyBuild:
     - Completed.Wall
     - Quit
     - TutorialInfo
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -55,41 +57,41 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9192}
-    - Class: 114
-      Script: {instanceID: 9414}
+      Script: {instanceID: 9194}
     - Class: 114
       Script: {instanceID: 9416}
     - Class: 114
-      Script: {instanceID: 9422}
+      Script: {instanceID: 9418}
     - Class: 114
-      Script: {instanceID: 9428}
+      Script: {instanceID: 9424}
     - Class: 114
-      Script: {instanceID: 9436}
+      Script: {instanceID: 9430}
     - Class: 114
-      Script: {instanceID: 9472}
+      Script: {instanceID: 9438}
     - Class: 114
       Script: {instanceID: 9474}
     - Class: 114
       Script: {instanceID: 9476}
     - Class: 114
-      Script: {instanceID: 9480}
+      Script: {instanceID: 9478}
     - Class: 114
-      Script: {instanceID: 9664}
+      Script: {instanceID: 9482}
     - Class: 114
-      Script: {instanceID: 9712}
+      Script: {instanceID: 9666}
     - Class: 114
-      Script: {instanceID: 9764}
+      Script: {instanceID: 9714}
     - Class: 114
-      Script: {instanceID: 9878}
+      Script: {instanceID: 9766}
     - Class: 114
-      Script: {instanceID: 10216}
+      Script: {instanceID: 9880}
     - Class: 114
-      Script: {instanceID: 10238}
+      Script: {instanceID: 10218}
     - Class: 114
-      Script: {instanceID: 10280}
+      Script: {instanceID: 10240}
     - Class: 114
-      Script: {instanceID: 10378}
+      Script: {instanceID: 10282}
+    - Class: 114
+      Script: {instanceID: 10380}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -796,4 +798,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/_Complete-Game/Scenes/Main.unity
-  playerPath: "/Users/nirvana/Desktop/Code/C#/\u524D\u8FDB\uFF01\u65BD\u5DE5\u961Fv1.0.0release/\u524D\u8FDB\uFF01\u65BD\u5DE5\u961F.exe"
+  playerPath: "/Users/nirvana/Desktop/Code/C#/\u524D\u8FDB\uFF01\u65BD\u5DE5\u961Fv1.0.1release/\u524D\u8FDB\uFF01\u65BD\u5DE5\u961F.exe"
