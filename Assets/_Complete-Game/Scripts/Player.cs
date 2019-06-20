@@ -8,7 +8,7 @@ namespace Completed
     //Player inherits from MovingObject, our base class for objects that can move, Enemy also inherits from this.
     public class Player : MovingObject
     {
-        public float restartLevelDelay = 0.5f;        //Delay time in seconds to restart level.
+        public float restartLevelDelay = 0.1f;        //Delay time in seconds to restart level.
         public int pointsPerFood = 5;               //Number of points to add to player food points when picking up a food object.
         public int pointsPerSoda = 10;              //Number of points to add to player food points when picking up a soda object.
         public int wallDamage = 2;                  //How much damage a player does to a wall when chopping it.
@@ -134,7 +134,7 @@ namespace Completed
             //food--;
 
             //Update food text display to reflect current score.
-            foodText.text = "Food: " + food;
+            //foodText.text = "Food: " + food;
 
             //Call the AttemptMove method of the base class, passing in the component T (in this case Wall) and x and y direction to move.
             base.AttemptMove<T>(xDir, yDir);
@@ -164,11 +164,16 @@ namespace Completed
             //Set hitWall to equal the component passed in as a parameter.
             Wall hitWall = component as Wall;
 
+            food--;
+            //Update food text display to reflect current score.
+            foodText.text = "Food: " + food;
+
             //Call the DamageWall function of the Wall we are hitting.
             hitWall.DamageWall(wallDamage);
 
             //Set the attack trigger of the player's animation controller in order to play the player's attack animation.
             animator.SetTrigger("playerChop");
+
         }
 
 

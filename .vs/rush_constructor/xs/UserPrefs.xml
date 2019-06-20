@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{D9EB809C-274C-2A89-EB74-0A9D4303199C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/Player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/Wall.cs">
     <Files>
-      <File FileName="Assets/TutorialInfo/Scripts/TutorialInfo.cs" Line="11" Column="36" />
-      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="20" Column="38" />
-      <File FileName="Assets/_Complete-Game/Scripts/CameraController.cs" Line="29" Column="1" />
-      <File FileName="Assets/_Complete-Game/Scripts/Loader.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Complete-Game/Scripts/Player.cs" Line="1" Column="1" />
+      <File FileName="Assets/TutorialInfo/Scripts/TutorialInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/CameraController.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/Loader.cs" />
+      <File FileName="Assets/_Complete-Game/Scripts/Player.cs" Line="19" Column="54" />
+      <File FileName="Assets/_Complete-Game/Scripts/Wall.cs" Line="25" Column="41" />
+      <File FileName="Assets/_Complete-Game/Scripts/MovingObject.cs" Line="120" Column="27" />
+      <File FileName="Assets/_Complete-Game/Scripts/Enemy.cs" Line="83" Column="27" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +17,7 @@
             <Node name="Assets" expanded="True">
               <Node name="_Complete-Game" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="Player.cs" selected="True" />
+                  <Node name="Wall.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="TutorialInfo" expanded="True">
@@ -26,9 +29,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="cde225fa-4210-4af6-8684-224c17e4b37f" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cde225fa-4210-4af6-8684-224c17e4b37f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9de40781-ce6e-4d66-acf0-8696d3e90348" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
