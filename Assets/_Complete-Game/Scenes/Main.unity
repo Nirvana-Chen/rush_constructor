@@ -798,8 +798,8 @@ PrefabInstance:
       objectReference: {fileID: 1089777625}
     - target: {fileID: 114000010894573602, guid: c74f553b118f94bfcbe70a5cdcc48114,
         type: 3}
-      propertyPath: showAtStart
-      value: 1
+      propertyPath: url
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 114000013909997384, guid: c74f553b118f94bfcbe70a5cdcc48114,
         type: 3}

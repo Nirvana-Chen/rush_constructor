@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{D9EB809C-274C-2A89-EB74-0A9D4303199C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Complete-Game/Scripts/BoardManager.cs">
+    <Files>
+      <File FileName="Assets/TutorialInfo/Scripts/TutorialInfo.cs" Line="11" Column="36" />
+      <File FileName="Assets/_Complete-Game/Scripts/BoardManager.cs" Line="29" Column="25" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rush_constructor" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_Complete-Game" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="BoardManager.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="TutorialInfo" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cde225fa-4210-4af6-8684-224c17e4b37f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

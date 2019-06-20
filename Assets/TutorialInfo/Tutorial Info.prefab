@@ -573,7 +573,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showAtStart: 1
-  url: https://unity3d.com/learn/tutorials/projects/2d-roguelike-tutorial?utm_source=editor
   overlay: {fileID: 1000012547990680}
   mainListener: {fileID: 0}
   showAtStartToggle: {fileID: 114000013473053928}
