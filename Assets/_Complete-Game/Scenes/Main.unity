@@ -322,6 +322,10 @@ PrefabInstance:
       propertyPath: foodText
       value: 
       objectReference: {fileID: 93537621}
+    - target: {fileID: 11446652, guid: 28b53fc28d3a140c392f0e2d919f9de1, type: 3}
+      propertyPath: wallDamage
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28b53fc28d3a140c392f0e2d919f9de1, type: 3}
 --- !u!1 &640480130
@@ -417,6 +421,7 @@ GameObject:
   - component: {fileID: 1089777626}
   - component: {fileID: 1089777625}
   - component: {fileID: 1089777630}
+  - component: {fileID: 1089777631}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -499,7 +504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089777624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 3.5, z: -10}
+  m_LocalPosition: {x: 7.5, y: 3.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -519,6 +524,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 133658, guid: 1ca8c6e960c494bbd937610290f80d1b, type: 3}
   soundManager: {fileID: 109316, guid: 76cd81135280f4ad6a4fa80f6422aea2, type: 3}
+--- !u!114 &1089777631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089777624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3078fe4880854b6b8337b2b7a6d0106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offset: {x: 7.5, y: 3.5, z: -10}
 --- !u!1 &1410265689
 GameObject:
   m_ObjectHideFlags: 0

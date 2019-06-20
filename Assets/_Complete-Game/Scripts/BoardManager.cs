@@ -26,10 +26,10 @@ namespace Completed
         }
 
 
-        public int columns = 16;                                        //Number of columns in our game board.
+        public int columns = 24;                                        //Number of columns in our game board.
         public int rows = 8;                                            //Number of rows in our game board.
                                                                         //public Count wallCount = new Count(25, 36);                     //Lower and upper limit for our random number of walls per level.
-        public Count foodCount = new Count(3, 7);                     //Lower and upper limit for our random number of food items per level.
+        public Count foodCount = new Count(10, 16);                     //Lower and upper limit for our random number of food items per level.
         public GameObject exit;                                         //Prefab to spawn for exit.
         public GameObject[] floorTiles;                                 //Array of floor prefabs.
         public GameObject[] wallTiles;                                  //Array of wall prefabs.
